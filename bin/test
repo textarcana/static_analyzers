@@ -6,8 +6,6 @@
 # Talk to NS if you want pointers on how to configure your Mac or
 # CentOS host to run this test script.
 
-[[ `pwd` == */lib/meteor ]] || cd lib/meteor
-
 # export variables or else GNU parallel cannot see them!
 
 export status_file=/tmp/JS_CodeSniffer-autotest-status.lock
